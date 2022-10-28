@@ -3,107 +3,107 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.navegador>.logo{
-    display: flex;
-    justify-content: start;
-    margin: 1rem;
-}
-.navegador{
-    display: flex;
-}
-.navegador>a{
-    color: white;
-    font-weight: 800;
-    padding: 1rem;
-    margin: 1rem;
-    text-decoration: none;
-}
-.box{
+.fundOne{
     height: 75vh;
     background-image: url(./img/Fondo1.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-.contenido{
+.contOne{
     display: flex;
-    height: 45vh;
+    justify-content: space-between;
 }
-.hijo-contenido-1{
-    display: flex;
-    flex-direction: column;
-    background-color: blueviolet;
-    width: 50%;
-}
-.hijo-contenido-2{
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
-    width: 50%;
-}
-.box-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    background-image: url(./img/Fondo2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.principal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: solid 2px red;
-    height: 90%;
-}
-h1{
-    text-align: center;
-    font-size: 3rem;
-    width: 20%;
-    color: white;
-    border-bottom: solid 2px white;
-    margin: 1.5rem;
-}
-h2{
-    text-align: center;
-    font-size: 2rem;
-    width: 30%;
-    color: white;
-    border-bottom: solid 2px white;
-    margin: 2rem;
-}
-p{
-    text-align: center;
-    width: 21%;
-    color: white;
-    font-size: 1.2rem;
+.logo{
     margin: 1rem;
 }
-.contenido-hijo-1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: brown;
-    color: peachpuff;
-    width: 50%;
-}
-.contenido-hijo-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: peachpuff;
-    color: brown;
-    width: 50%;
-}
-.ancor-1{
+.browsers{
     text-decoration: none;
-    padding: .7rem;
-    border: solid 4px white;
     color: white;
+    font-weight: 900;
+    margin: 1rem;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    height: 3rem;
+}
+.secOne{
+    display: flex;
+    margin-top: 8rem;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color:rgba(245,240,237,255);
+    font-weight: 900;
+    font-size: 2rem;
+    width: 20vw;
+    text-align: center;
+    margin: 1rem;
+    border-bottom: solid .1rem white;
+}
+h2{
+    margin: 1.5rem;
+}
+.colorOne{
+    color: white;
+    text-align: center;
+    width: 30vw;
+    margin: 1rem;
+}
+.contTwo{
+    display: flex;
+    height: 60vh;
+}
+.secTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgba(222,214,191,255);
+    background-color:rgba(210,57,60,255);
+    width: 50%;
+    height: 100%;
+}
+.secThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(210,57,60,255);
+    background-color: rgba(222,214,191,255);
+    width: 50%;
+    height: 100%;
+}
+.textOne{
+    text-align: center;
+    width: 40%;
+}
+.textTwo{
+    text-align: center;
+    width: 39%;
+}
+.contThree{
+    height: 75vh;
+    background-image: url(./img/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.textFour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.brow{
+    color: white;
+    border: solid 2px white;
+    font-weight: 700;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
 }
