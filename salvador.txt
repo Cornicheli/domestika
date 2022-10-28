@@ -65,12 +65,12 @@
     </aside>
     <div class="box-mother">
         <div class="box-1">
-            <h2>CONTACTA CON NOSTROS</h2>
+            <h3>CONTACTA CON NOSTROS</h3>
             <p>Si quieres hacer una reserva, tienes alguna sugerencia o simplemente quieres saludar, escribenos a: <a href="mailto:#">cafeoslo@cafeoslo.es</a>.</p>
         </div>
     </div>
     <div class="box-1">
-        <h2>¿SABES DONDE ESTAMOS?</h2>
+        <h3>¿SABES DONDE ESTAMOS?</h3>
         <p>C/Mayor, 15</p>
         <p>00000 Barcelona</p>
         <a href="#">(Google Maps)</a>
