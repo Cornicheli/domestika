@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .fundOne{
-    height: 75vh;
+    min-height: 75vh;
     background-image: url(./img/Fondo1.jpg);
     background-position: center;
     background-size: cover;
@@ -57,6 +57,7 @@ h3{
     margin: 1.5rem;
 }
 h4{
+    margin: .5rem;
     font-weight: 900;
 }
 p{
@@ -71,7 +72,7 @@ p{
 }
 .contTwo{
     display: flex;
-    height: 60vh;
+    min-height: 47vh;
 }
 .secTwo{
     display: flex;
@@ -81,7 +82,6 @@ p{
     color:rgba(222,214,191,255);
     background-color:rgba(210,57,60,255);
     width: 50%;
-    height: 100%;
 }
 .secThree{
     display: flex;
@@ -91,7 +91,6 @@ p{
     color: rgba(210,57,60,255);
     background-color: rgba(222,214,191,255);
     width: 50%;
-    height: 100%;
 }
 .textOne{
     text-align: center;
@@ -102,7 +101,10 @@ p{
     width: 39%;
 }
 .contThree{
-    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
     background-image: url(./img/Fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,13 +128,15 @@ p{
 }
 aside{
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
     height: 45avh;
 }
 .contFour{
     display: flex;
     width: 50%;
-    gap: 4rem;
+    gap: 3rem;
 }
 .textAncorOne{
     text-decoration: none;
@@ -168,5 +172,38 @@ aside{
     text-align: left;
 }
 .text{
+    margin: .5rem;
     text-align: left;
+}
+.icon{
+    margin: .5rem;
+}
+
+@media screen and (max-width: 768px){
+    .contTwo{
+        flex-direction: column;
+    }
+    aside{
+        flex-direction: column;
+    }
+    .contFour{
+        flex-direction: column;
+    }
+    .secThree{
+        width: 100%;
+    }
+    .secTwo{
+        width: 100%;
+    }
+    nav{
+        font-size: .7rem;
+        text-align: center;
+    }
+    .browsers{
+        justify-content: center;
+        margin: .7rem;
+    }
+    .contTwo {
+        min-height: 47vh;
+    }
 }
