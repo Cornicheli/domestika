@@ -1,0 +1,22 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.ftr {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+  color: #5f6368;
+  margin: 0.3rem;
+}
+.ctn-ftr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem;
+  color: #5f6368;
+  height: 1rem;
+}
